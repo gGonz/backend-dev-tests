@@ -1,6 +1,6 @@
 # 02 Fibonacci test
 
-Write a function fibonacci(n) that accepts a parameter `n` and returns the nth element of the Fibonacci sequence, recursively.
+Write a function `fibonacci` that accepts a parameter `n` and returns the nth element of the Fibonacci sequence, recursively.
 
 It must raise a `ValueError` exception with the message `"Invalid number"` if the given number is negative.
 

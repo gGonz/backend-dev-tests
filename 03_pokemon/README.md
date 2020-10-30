@@ -1,16 +1,16 @@
 # 03 Pokémon catch test
 
-Write a class named Pokemon that let's you define a name and a catch rate for a Pokémon.
+Write a class named Pokemon that lets you define a name and a catch rate for a Pokémon.
 
 The catch rate is a floating number between 0 and 1 that represents the base probability of a Pokémon to be caught when throwing a Poké Ball at it.
 
-During battle, the Pokémon can be affected by an status condition that changes the probability for being caught.
+During battle, the Pokémon can be affected by a status condition that changes the probability of being caught.
 
 The Pokemon class must define the following methods:
 
-* `set_status()`: That let's you set an status condition on the Pokémon
+* `set_status(status)`: That lets you set a status condition on the Pokémon
 
-* `catch_attempt()`: That returns a boolean telling whether the Pokémon is caught or not, depending on the type of Poké Ball used, the status condition the Pokémon has (if any), and the catch rate of the Pokémon, by applying the following rules:
+* `catch_attempt(pokeball)`: That returns a boolean telling whether the Pokémon is caught or not, depending on the type of Poké Ball used, the status condition the Pokémon has (if any), and the catch rate of the Pokémon, by applying the following rules:
 
     1. If a `MASTER_BALL` is used, the Pokémon is caught.
 
